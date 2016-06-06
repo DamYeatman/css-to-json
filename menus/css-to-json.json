@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle css-to-json",
+        "command": "css-to-json:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "css-to-json",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "css-to-json:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
